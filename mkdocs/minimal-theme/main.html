@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ config.site_name }}</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="nav">
+        {% include "nav.html" %}
+      </div>
+      <div id="content">
+        {{ page.content }}
+      </div>
+      </div>
+  </body>
+</html>

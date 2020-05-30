@@ -1,0 +1,21 @@
+# mkDocs-Konfiguration
+
+
+```yml
+site_name: Anleitung
+nav:
+  - Home: index.md
+   - Kleiner Blindtext: blindtext.md
+  - Wortberge: wortberge.md
+theme:
+  name: readthedocs
+  custom_dir: 'theme/'
+extra_css:
+  - extra.css
+use_directory_urls: true
+plugins:
+  - search:
+      lang: de
+dev_addr: '0.0.0.0:8080'
+
+```
