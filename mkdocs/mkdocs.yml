@@ -1,17 +1,22 @@
 site_name: Anleitung
 nav:
   #- Home: index.md
-  # - Kleiner Blindtext: blindtext.md
+  #- Kleiner Blindtext: blindtext.md
   #- Wortberge: wortberge.md
 theme:
   name: readthedocs
   #name: null
   #custom_dir: 'minimal-theme/'
+  titles_only: false
+  prev_next_buttons_location: none
 extra_css:
   - extra.css
-use_directory_urls: true
+use_directory_urls: false
+#false ist mit .html dateien und funktioniert dann auch offline
 plugins:
   - search:
       lang: de
+      min_search_length: 2
+      #minimum an characters für die suche
 dev_addr: '0.0.0.0:8080'
 
