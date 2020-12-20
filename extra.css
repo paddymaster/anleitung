@@ -1,0 +1,14 @@
+h1 {
+   color: #2980B9;
+}
+
+.wy-side-nav-search:before{
+   content: '';
+   height: 40px;
+   width: 100%;
+   display: block;
+   background-image: url(logo.svg);
+   background-repeat: no-repeat;
+   background-position: center center;
+   margin-bottom: 20px;
+}
